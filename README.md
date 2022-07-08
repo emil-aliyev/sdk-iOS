@@ -25,7 +25,7 @@ pod 'SkyTechChat'
 ## Configuration
 You can configure details in your AppDelegate.swift
 
-        import WhelpChat
+        import SkyTechChat
 
         let params: [String:Any] = [
             "language": "en", // language code, default is auto

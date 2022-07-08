@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01DEEB24029E0E46FD0580C0375FFF15 /* SkyTechChat.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EC6307E87C272C5A4AACED073BB8BD /* SkyTechChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		052C0B14369D32257F9FBA9F638875E7 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268BBE960465A7382DB0112793AC5FC7 /* ReplaceMe.swift */; };
 		12226EF772B80F8761718BC5BEF4FFD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		22A5EBE05017BBD71AF0122ECEE516B5 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEED66A7F8989D2B10E35175B0F80AEE /* ConfigurationManager.swift */; };
 		28E47549C094649C8B9226922E3DCFF8 /* SkyTechChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63771F66E32F888EBA35852F115BF700 /* SkyTechChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,8 +52,7 @@
 		0C150D6EEBAC3A6AC7FD21360D79E3E7 /* SkyTechChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyTechChat-dummy.m"; sourceTree = "<group>"; };
 		14E8C2E98ADE569EB67E3FF90E729EB4 /* Pods-SkyTechChat_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		21460D194B4744B05C9B84690A69DD62 /* ErrorBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorBody.swift; path = SkyTechChat/Classes/ErrorBody.swift; sourceTree = "<group>"; };
-		24AA81CBDC907C4142952E0A8B037C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		268BBE960465A7382DB0112793AC5FC7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SkyTechChat/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		24AA81CBDC907C4142952E0A8B037C36 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		35750DAC899BF9FB4B6328A4654CA6AB /* Pods-SkyTechChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkyTechChat_Example.modulemap"; sourceTree = "<group>"; };
 		3A7A59C891D53C683F899F45752B6E94 /* Pods-SkyTechChat_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyTechChat_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		473B55C8AEF1DFC048EA00E329AC575E /* Pods-SkyTechChat_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -68,22 +66,22 @@
 		6E8C3F619519E8AB5955382AAA972DC8 /* Pods-SkyTechChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyTechChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75D8EBE72FD5FDEBE6075E2667FED8D4 /* Pods-SkyTechChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Example-Info.plist"; sourceTree = "<group>"; };
-		7F78B9A4499423A18F351803C004211D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7F78B9A4499423A18F351803C004211D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		888A64D56412FB87767DCF0F296F4682 /* SkyTechChatDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyTechChatDelegate.swift; path = SkyTechChat/Classes/SkyTechChatDelegate.swift; sourceTree = "<group>"; };
 		94A8D210A709BE0FC91E78B20D9E00E7 /* HmacEncrypter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HmacEncrypter.swift; path = SkyTechChat/Classes/HmacEncrypter.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A17065A5AD9AAEE3773555768E6C6979 /* Pods-SkyTechChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A39A58B7A71BB99CCED1E02876940F5A /* SkyTechChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyTechChat.modulemap; sourceTree = "<group>"; };
 		A45CF426BBBC4197F59E3A250F3F0A71 /* ChatConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatConfiguration.swift; path = SkyTechChat/Classes/ChatConfiguration.swift; sourceTree = "<group>"; };
 		A9181F36BF5E0948B12E09BD3D928330 /* ChatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatController.swift; path = SkyTechChat/Classes/ChatController.swift; sourceTree = "<group>"; };
 		A92D9D16D34B2762039F422ABB8B7240 /* SkyTechChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyTechChat-Info.plist"; sourceTree = "<group>"; };
-		BC073B9DF2770961B718A7F50DB168C7 /* SkyTechChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SkyTechChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC073B9DF2770961B718A7F50DB168C7 /* SkyTechChat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SkyTechChat.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE5E5EDE9D1C68C338959F09D84DF797 /* Pods-SkyTechChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BEBC7686B9F05138595A67D41E6579D3 /* Pods-SkyTechChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D17F609E68DB44F52ABB35A734ED5C87 /* Pods-SkyTechChat_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyTechChat_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D9D02AC7CD1EE01274221EA9ED239A9F /* Pods-SkyTechChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyTechChat_Example-umbrella.h"; sourceTree = "<group>"; };
 		DDD89379793F3F09B067B7C1EF3124C8 /* Pods-SkyTechChat_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SkyTechChat_Tests"; path = Pods_SkyTechChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1A8EDA5D91D0E8F12648E4C914752E5 /* SkyTechChat.md */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyTechChat.md; sourceTree = "<group>"; };
+		E1A8EDA5D91D0E8F12648E4C914752E5 /* SkyTechChat.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = SkyTechChat.md; sourceTree = "<group>"; };
 		E470905F304DFF3299A5C141764417BA /* Pods-SkyTechChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EA8A20C9F73A6E049F9903455E1B31FE /* Pods-SkyTechChat_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2EC6307E87C272C5A4AACED073BB8BD /* SkyTechChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyTechChat.h; path = SkyTechChat/Classes/SkyTechChat.h; sourceTree = "<group>"; };
@@ -174,7 +172,6 @@
 				FEED66A7F8989D2B10E35175B0F80AEE /* ConfigurationManager.swift */,
 				21460D194B4744B05C9B84690A69DD62 /* ErrorBody.swift */,
 				94A8D210A709BE0FC91E78B20D9E00E7 /* HmacEncrypter.swift */,
-				268BBE960465A7382DB0112793AC5FC7 /* ReplaceMe.swift */,
 				F2EC6307E87C272C5A4AACED073BB8BD /* SkyTechChat.h */,
 				888A64D56412FB87767DCF0F296F4682 /* SkyTechChatDelegate.swift */,
 				031C78CD4B581810327B45C5E74495FD /* SkyTechChatError.swift */,
@@ -432,7 +429,6 @@
 				22A5EBE05017BBD71AF0122ECEE516B5 /* ConfigurationManager.swift in Sources */,
 				72AB9842C6D1D0D171A36D4DC8F76A4F /* ErrorBody.swift in Sources */,
 				A313EF733899BD910DC40E2FBB421910 /* HmacEncrypter.swift in Sources */,
-				052C0B14369D32257F9FBA9F638875E7 /* ReplaceMe.swift in Sources */,
 				63461BAFBA8D1FCCBF72BECE3AD4985C /* SkyTechChat.md in Sources */,
 				DCDB2CBC675E9342F592E42BEB7ED5A1 /* SkyTechChat-dummy.m in Sources */,
 				CBB9AC0E4C4D282B838139ABFC30E351 /* SkyTechChatDelegate.swift in Sources */,
@@ -514,8 +510,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

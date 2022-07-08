@@ -29,7 +29,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8E40E9E5C68E524B7FDEF08E /* Pods-SkyTechChat_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTechChat_Tests.release.xcconfig"; path = "Target Support Files/Pods-SkyTechChat_Tests/Pods-SkyTechChat_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B140B077ED7E34BC25CD8A9C /* Pods_SkyTechChat_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTechChat_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC49CAD06DF3262993DE12A6 /* SkyTechChat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SkyTechChat.podspec; path = ../SkyTechChat.podspec; sourceTree = "<group>"; };
+		DC49CAD06DF3262993DE12A6 /* SkyTech-Chat.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SkyTech-Chat.podspec"; path = "../SkyTech-Chat.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E0A9E2CB28789CBD008D460D /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		EAB27CE79BE8352714298E10 /* Pods-SkyTechChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkyTechChat_Example.debug.xcconfig"; path = "Target Support Files/Pods-SkyTechChat_Example/Pods-SkyTechChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE32B9709E837FF93D88DE4 /* Pods_SkyTechChat_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkyTechChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +102,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				DC49CAD06DF3262993DE12A6 /* SkyTechChat.podspec */,
+				DC49CAD06DF3262993DE12A6 /* SkyTech-Chat.podspec */,
 				3E3FA984D9E1B0E004D7FD5F /* README.md */,
 				1EE390FE009149C5ECEC4A71 /* LICENSE */,
 			);

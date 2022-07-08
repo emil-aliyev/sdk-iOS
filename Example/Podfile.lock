@@ -1,0 +1,16 @@
+PODS:
+  - SkyTechChat (0.1.0)
+
+DEPENDENCIES:
+  - SkyTechChat (from `../`)
+
+EXTERNAL SOURCES:
+  SkyTechChat:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SkyTechChat: cf440082023e9c69f9bb751cc26a410d5a99e334
+
+PODFILE CHECKSUM: 37280d6238b8ce16daf201934974bcfbddb489d7
+
+COCOAPODS: 1.11.2

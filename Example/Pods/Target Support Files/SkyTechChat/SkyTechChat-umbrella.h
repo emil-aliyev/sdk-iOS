@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SkyTechChat.h"
 
 FOUNDATION_EXPORT double SkyTechChatVersionNumber;
 FOUNDATION_EXPORT const unsigned char SkyTechChatVersionString[];

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SkyTechChat
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let params: [String:Any] = [
+                  "language": "en", // language code, default is auto
+                  "contact": [ // set contacts default and custom fields
+                      "email": "YOUR EMAIL",
+                      "fullname": "YOUR_FULLNAME",
+                      "phone": "YOUR_PHONE"
+                      
+                             ]
+              ]
+              
+              let config = ChatConfiguration(apiKey: "YOUR_API_KEY", appId: "YOUR_APP_ID", params: params)
+              ChatManager.configuration = config
+              
+        
+        
         return true
     }
 

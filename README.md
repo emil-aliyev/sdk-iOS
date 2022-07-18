@@ -1,4 +1,4 @@
-# SkyTechChat
+# SkyTech-Chat
 
 [![CI Status](https://img.shields.io/travis/RashadShirizadaW/SkyTechChat.svg?style=flat)](https://travis-ci.org/RashadShirizadaW/SkyTechChat)
 [![Version](https://img.shields.io/cocoapods/v/SkyTechChat.svg?style=flat)](https://cocoapods.org/pods/SkyTechChat)
@@ -19,13 +19,13 @@ SkyTechChat is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SkyTechChat'
+pod 'SkyTech_Chat'
 ```
 
 ## Configuration
 You can configure details in your AppDelegate.swift
 
-        import SkyTechChat
+        import SkyTech_Chat
 
         let params: [String:Any] = [
             "language": "en", // language code, default is auto

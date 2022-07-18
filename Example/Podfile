@@ -3,11 +3,6 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'SkyTechChat_Example' do
-  pod 'SkyTechChat', :path => '../'
+  pod 'SkyTech-Chat'
 
-  target 'SkyTechChat_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SkyTechChat
+import SkyTech_Chat
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

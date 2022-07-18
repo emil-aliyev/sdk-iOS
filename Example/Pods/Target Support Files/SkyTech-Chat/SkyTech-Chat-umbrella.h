@@ -12,6 +12,6 @@
 
 #import "SkyTechChat.h"
 
-FOUNDATION_EXPORT double SkyTechChatVersionNumber;
-FOUNDATION_EXPORT const unsigned char SkyTechChatVersionString[];
+FOUNDATION_EXPORT double SkyTech_ChatVersionNumber;
+FOUNDATION_EXPORT const unsigned char SkyTech_ChatVersionString[];
 

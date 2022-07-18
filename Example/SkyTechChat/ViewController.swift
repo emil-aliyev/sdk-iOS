@@ -3,7 +3,7 @@
 //  SkyTechChat
 
 import UIKit
-import SkyTechChat
+import SkyTech_Chat
 
 class ViewController: UIViewController {
     private lazy var openChatBtn: UIButton = {

@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CD05C7C04A8130E5544794D5109B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		1CB3A27C07391B0548E226F50B0AF133 /* WebCacheCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AF9D7C7F84F9CFAEC15B6AF954D1E7 /* WebCacheCleaner.swift */; };
+		1D7A08498E3151D839336A927260609C /* SkyTech-Chat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41439E4FA777187AFB04D3D88BDCEFA2 /* SkyTech-Chat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		254AFB9A8B826C81BE3505F195B4A38F /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C8D3177E356453F9A63E0E7F9189FA /* TokenResponse.swift */; };
+		2B804BCBC5680CB770666426245408B6 /* HmacEncrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A756861BE31BB16861022F45A0C8A37 /* HmacEncrypter.swift */; };
+		3478B4EFD996D7065A4380C8E9406826 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D39DF89D81CA0906577683BA44133 /* ChatManager.swift */; };
+		555C8F98A7DC723D6D45A8F1D939585C /* SkyTechChat.md in Sources */ = {isa = PBXBuildFile; fileRef = 0B42F53CC56F75F0C158BDC293FEC577 /* SkyTechChat.md */; };
+		5607E694653602D696C3013B1CF8C46B /* Pods-SkyTechChat_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E89EBC50AF5A52C606E52DB8911EED /* Pods-SkyTechChat_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74D7C7774267D12589D969FFA21661F2 /* ErrorBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDD2918E1BBFCB4B2B0B6C3D36EF500 /* ErrorBody.swift */; };
+		770719101364BCB9BC07F700681A78B8 /* SkyTech-Chat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6970A0C3696AA91B6190EDFA44E85B /* SkyTech-Chat-dummy.m */; };
+		844D9E293217D79BE9ECDD7C9E80D03F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		85356C1ABA15E94BFF210B1398270B25 /* SkyTechChatError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE817BB79A663C31C959C3C6A79DC4B /* SkyTechChatError.swift */; };
+		89119F9384414DAC478F0FAB02B445B0 /* SkyTechChat.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4853FCD5DFEFDE030BA4BEE6C63DC1 /* SkyTechChat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95341A34BA2E943DCDA4F15DB3904EE3 /* SkyTechChatDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8714B41A529DA12C8F1D50B3E49D86D3 /* SkyTechChatDelegate.swift */; };
+		9BEADAA7DC5AA497CAA779E44C2F279E /* ChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1163EDD6335AC2CD2CE0F79E936C69 /* ChatController.swift */; };
+		BAB504A0FF93CC7C9CBCCEA07D1DAF88 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF8609EE193B627F0291F2195EBE64 /* ConfigurationManager.swift */; };
+		CD01EBB1A2C0BE42530982521258E53B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		E4CFBDF8327B9EB63BB1E19810410048 /* ChatConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9B8E82D368C62F702BF3E3AD2EB1A1 /* ChatConfiguration.swift */; };
+		EC596F979E95892FB0E65FB2643A4FE9 /* Pods-SkyTechChat_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9290BEE5E120F7F3BD79AB7B19995467 /* Pods-SkyTechChat_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37ADBF6B7ABA31DDAFD05E3F14E65B99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C1BB8895B7F3D582AD38F9BD109048;
+			remoteInfo = "SkyTech-Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02584CE2BFE698C88252E6F432D3830B /* Pods-SkyTechChat_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyTechChat_Example-frameworks.sh"; sourceTree = "<group>"; };
+		059FA0FD5D0A100C31716B8884F10EF1 /* SkyTech-Chat-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyTech-Chat-prefix.pch"; sourceTree = "<group>"; };
+		0B42F53CC56F75F0C158BDC293FEC577 /* SkyTechChat.md */ = {isa = PBXFileReference; includeInIndex = 1; path = SkyTechChat.md; sourceTree = "<group>"; };
+		0B4853FCD5DFEFDE030BA4BEE6C63DC1 /* SkyTechChat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SkyTechChat.h; path = SkyTechChat/Classes/SkyTechChat.h; sourceTree = "<group>"; };
+		103076989A5338133D4C08E5D0CA7FCB /* Pods-SkyTechChat_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A04FDF222F48F941D3D2A4D8BE04EB0 /* SkyTech-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SkyTech-Chat.release.xcconfig"; sourceTree = "<group>"; };
+		3E9B8E82D368C62F702BF3E3AD2EB1A1 /* ChatConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatConfiguration.swift; path = SkyTechChat/Classes/ChatConfiguration.swift; sourceTree = "<group>"; };
+		41439E4FA777187AFB04D3D88BDCEFA2 /* SkyTech-Chat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyTech-Chat-umbrella.h"; sourceTree = "<group>"; };
+		4DA8379B949310EAE1F2331FDD27F9AE /* Pods-SkyTechChat_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyTechChat_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51B109CF52A81312E6918DEED4EDFF68 /* Pods-SkyTechChat_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyTechChat_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		51F45BAE4A113BEF0253E1B2D250D090 /* Pods-SkyTechChat_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SkyTechChat_Example"; path = Pods_SkyTechChat_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A756861BE31BB16861022F45A0C8A37 /* HmacEncrypter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HmacEncrypter.swift; path = SkyTechChat/Classes/HmacEncrypter.swift; sourceTree = "<group>"; };
+		5CEF8609EE193B627F0291F2195EBE64 /* ConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationManager.swift; path = SkyTechChat/Classes/ConfigurationManager.swift; sourceTree = "<group>"; };
+		66AF9D7C7F84F9CFAEC15B6AF954D1E7 /* WebCacheCleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebCacheCleaner.swift; path = SkyTechChat/Classes/WebCacheCleaner.swift; sourceTree = "<group>"; };
+		72C06AB047E77B92F020B6414F473ED8 /* SkyTech-Chat */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "SkyTech-Chat"; path = SkyTech_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8D39DF89D81CA0906577683BA44133 /* ChatManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatManager.swift; path = SkyTechChat/Classes/ChatManager.swift; sourceTree = "<group>"; };
+		855BCDF2D83278772D925159A76BB9CD /* SkyTech-Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SkyTech-Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		86E89EBC50AF5A52C606E52DB8911EED /* Pods-SkyTechChat_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyTechChat_Example-umbrella.h"; sourceTree = "<group>"; };
+		8714B41A529DA12C8F1D50B3E49D86D3 /* SkyTechChatDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyTechChatDelegate.swift; path = SkyTechChat/Classes/SkyTechChatDelegate.swift; sourceTree = "<group>"; };
+		8D3931392660B7D1C11FD33D16730061 /* Pods-SkyTechChat_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Example-Info.plist"; sourceTree = "<group>"; };
+		9290BEE5E120F7F3BD79AB7B19995467 /* Pods-SkyTechChat_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyTechChat_Example-dummy.m"; sourceTree = "<group>"; };
+		9338228D6F7DE7F24E7C2CE3647D40D0 /* Pods-SkyTechChat_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyTechChat_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0E4671B3724E12270EEE3E116430E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9EC415B80714BE73B6D3122ED119AE46 /* SkyTech-Chat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "SkyTech-Chat.modulemap"; sourceTree = "<group>"; };
+		AAE817BB79A663C31C959C3C6A79DC4B /* SkyTechChatError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyTechChatError.swift; path = SkyTechChat/Classes/SkyTechChatError.swift; sourceTree = "<group>"; };
+		B5C8D3177E356453F9A63E0E7F9189FA /* TokenResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenResponse.swift; path = SkyTechChat/Classes/TokenResponse.swift; sourceTree = "<group>"; };
+		BA9B7468D0404B8FB6849696559C1D21 /* SkyTech-Chat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyTech-Chat-Info.plist"; sourceTree = "<group>"; };
+		BC1163EDD6335AC2CD2CE0F79E936C69 /* ChatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChatController.swift; path = SkyTechChat/Classes/ChatController.swift; sourceTree = "<group>"; };
+		BDDD2918E1BBFCB4B2B0B6C3D36EF500 /* ErrorBody.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorBody.swift; path = SkyTechChat/Classes/ErrorBody.swift; sourceTree = "<group>"; };
+		BE6970A0C3696AA91B6190EDFA44E85B /* SkyTech-Chat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyTech-Chat-dummy.m"; sourceTree = "<group>"; };
+		C82D381952A03441AF08921A2B649B4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DBE170384D3C0BA7FAE6EC7A3A085815 /* SkyTech-Chat.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "SkyTech-Chat.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA5FA46DA67B3A18B75EA147AB0E6725 /* Pods-SkyTechChat_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkyTechChat_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51671D03C999C7B5522D184D91B4400C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD01EBB1A2C0BE42530982521258E53B /* Foundation.framework in Frameworks */,
+				04CD05C7C04A8130E5544794D5109B3B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6F88B750EE04690864167B605BC0D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D9E293217D79BE9ECDD7C9E80D03F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		151C1E68C93423803A83C332097A17E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EF2DE01C96017EDA88B17D41B1928DA8 /* SkyTech-Chat */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4896C09C8DEA6DEF61D527EC90B44CD4 /* SkyTechChat.docc */ = {
+			isa = PBXGroup;
+			children = (
+				0B42F53CC56F75F0C158BDC293FEC577 /* SkyTechChat.md */,
+			);
+			name = SkyTechChat.docc;
+			path = SkyTechChat/Classes/SkyTechChat.docc;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8F6B16E304F0A6ED347234BE3E1E3818 /* Pods-SkyTechChat_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA5FA46DA67B3A18B75EA147AB0E6725 /* Pods-SkyTechChat_Example.modulemap */,
+				4DA8379B949310EAE1F2331FDD27F9AE /* Pods-SkyTechChat_Example-acknowledgements.markdown */,
+				9338228D6F7DE7F24E7C2CE3647D40D0 /* Pods-SkyTechChat_Example-acknowledgements.plist */,
+				9290BEE5E120F7F3BD79AB7B19995467 /* Pods-SkyTechChat_Example-dummy.m */,
+				02584CE2BFE698C88252E6F432D3830B /* Pods-SkyTechChat_Example-frameworks.sh */,
+				8D3931392660B7D1C11FD33D16730061 /* Pods-SkyTechChat_Example-Info.plist */,
+				86E89EBC50AF5A52C606E52DB8911EED /* Pods-SkyTechChat_Example-umbrella.h */,
+				51B109CF52A81312E6918DEED4EDFF68 /* Pods-SkyTechChat_Example.debug.xcconfig */,
+				103076989A5338133D4C08E5D0CA7FCB /* Pods-SkyTechChat_Example.release.xcconfig */,
+			);
+			name = "Pods-SkyTechChat_Example";
+			path = "Target Support Files/Pods-SkyTechChat_Example";
+			sourceTree = "<group>";
+		};
+		A8288E86D2306B87EAD9E150DB154ABD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E0E4671B3724E12270EEE3E116430E7 /* LICENSE */,
+				C82D381952A03441AF08921A2B649B4F /* README.md */,
+				DBE170384D3C0BA7FAE6EC7A3A085815 /* SkyTech-Chat.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC8DED868783B182DF8ACE37A35282C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51F45BAE4A113BEF0253E1B2D250D090 /* Pods-SkyTechChat_Example */,
+				72C06AB047E77B92F020B6414F473ED8 /* SkyTech-Chat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				151C1E68C93423803A83C332097A17E0 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				BC8DED868783B182DF8ACE37A35282C6 /* Products */,
+				F8B0CEA9CA462A83C768A736B4612838 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2DE01C96017EDA88B17D41B1928DA8 /* SkyTech-Chat */ = {
+			isa = PBXGroup;
+			children = (
+				3E9B8E82D368C62F702BF3E3AD2EB1A1 /* ChatConfiguration.swift */,
+				BC1163EDD6335AC2CD2CE0F79E936C69 /* ChatController.swift */,
+				7A8D39DF89D81CA0906577683BA44133 /* ChatManager.swift */,
+				5CEF8609EE193B627F0291F2195EBE64 /* ConfigurationManager.swift */,
+				BDDD2918E1BBFCB4B2B0B6C3D36EF500 /* ErrorBody.swift */,
+				5A756861BE31BB16861022F45A0C8A37 /* HmacEncrypter.swift */,
+				0B4853FCD5DFEFDE030BA4BEE6C63DC1 /* SkyTechChat.h */,
+				8714B41A529DA12C8F1D50B3E49D86D3 /* SkyTechChatDelegate.swift */,
+				AAE817BB79A663C31C959C3C6A79DC4B /* SkyTechChatError.swift */,
+				B5C8D3177E356453F9A63E0E7F9189FA /* TokenResponse.swift */,
+				66AF9D7C7F84F9CFAEC15B6AF954D1E7 /* WebCacheCleaner.swift */,
+				A8288E86D2306B87EAD9E150DB154ABD /* Pod */,
+				4896C09C8DEA6DEF61D527EC90B44CD4 /* SkyTechChat.docc */,
+				FE6CC862968A3D6EFBCEE18A97246F25 /* Support Files */,
+			);
+			name = "SkyTech-Chat";
+			path = /Users/rashadshirizada/Desktop/Projects/JlTechChat/SkyTechChat;
+			sourceTree = "<absolute>";
+		};
+		F8B0CEA9CA462A83C768A736B4612838 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B16E304F0A6ED347234BE3E1E3818 /* Pods-SkyTechChat_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FE6CC862968A3D6EFBCEE18A97246F25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EC415B80714BE73B6D3122ED119AE46 /* SkyTech-Chat.modulemap */,
+				BE6970A0C3696AA91B6190EDFA44E85B /* SkyTech-Chat-dummy.m */,
+				BA9B7468D0404B8FB6849696559C1D21 /* SkyTech-Chat-Info.plist */,
+				059FA0FD5D0A100C31716B8884F10EF1 /* SkyTech-Chat-prefix.pch */,
+				41439E4FA777187AFB04D3D88BDCEFA2 /* SkyTech-Chat-umbrella.h */,
+				855BCDF2D83278772D925159A76BB9CD /* SkyTech-Chat.debug.xcconfig */,
+				2A04FDF222F48F941D3D2A4D8BE04EB0 /* SkyTech-Chat.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SkyTech-Chat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01BB671CAD327B05191724AD18BD2531 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5607E694653602D696C3013B1CF8C46B /* Pods-SkyTechChat_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02AFB0E3171792F86EF7AD38104C9F80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D7A08498E3151D839336A927260609C /* SkyTech-Chat-umbrella.h in Headers */,
+				89119F9384414DAC478F0FAB02B445B0 /* SkyTechChat.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05F71084EB5E50B865333FDCC2953C5A /* Pods-SkyTechChat_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA2925F0BFD172D9F2C98C8E1735D44E /* Build configuration list for PBXNativeTarget "Pods-SkyTechChat_Example" */;
+			buildPhases = (
+				01BB671CAD327B05191724AD18BD2531 /* Headers */,
+				190EC6D459687059A677D5B54B721915 /* Sources */,
+				FB6F88B750EE04690864167B605BC0D4 /* Frameworks */,
+				02AFB5E0B11C006F3A76BF2DE63C7A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50DEC6F8771979851F2A5A9B005F3B6F /* PBXTargetDependency */,
+			);
+			name = "Pods-SkyTechChat_Example";
+			productName = Pods_SkyTechChat_Example;
+			productReference = 51F45BAE4A113BEF0253E1B2D250D090 /* Pods-SkyTechChat_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		44C1BB8895B7F3D582AD38F9BD109048 /* SkyTech-Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7E3DB9C59932BE87940FE5827DE0A6 /* Build configuration list for PBXNativeTarget "SkyTech-Chat" */;
+			buildPhases = (
+				02AFB0E3171792F86EF7AD38104C9F80 /* Headers */,
+				8D99E557C97080C034AAD61B0BAC69D5 /* Sources */,
+				51671D03C999C7B5522D184D91B4400C /* Frameworks */,
+				24055B3A0BAB1BDD884C2CE1BAB24C0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkyTech-Chat";
+			productName = SkyTech_Chat;
+			productReference = 72C06AB047E77B92F020B6414F473ED8 /* SkyTech-Chat */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BC8DED868783B182DF8ACE37A35282C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05F71084EB5E50B865333FDCC2953C5A /* Pods-SkyTechChat_Example */,
+				44C1BB8895B7F3D582AD38F9BD109048 /* SkyTech-Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02AFB5E0B11C006F3A76BF2DE63C7A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24055B3A0BAB1BDD884C2CE1BAB24C0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190EC6D459687059A677D5B54B721915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC596F979E95892FB0E65FB2643A4FE9 /* Pods-SkyTechChat_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D99E557C97080C034AAD61B0BAC69D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CFBDF8327B9EB63BB1E19810410048 /* ChatConfiguration.swift in Sources */,
+				9BEADAA7DC5AA497CAA779E44C2F279E /* ChatController.swift in Sources */,
+				3478B4EFD996D7065A4380C8E9406826 /* ChatManager.swift in Sources */,
+				BAB504A0FF93CC7C9CBCCEA07D1DAF88 /* ConfigurationManager.swift in Sources */,
+				74D7C7774267D12589D969FFA21661F2 /* ErrorBody.swift in Sources */,
+				2B804BCBC5680CB770666426245408B6 /* HmacEncrypter.swift in Sources */,
+				770719101364BCB9BC07F700681A78B8 /* SkyTech-Chat-dummy.m in Sources */,
+				555C8F98A7DC723D6D45A8F1D939585C /* SkyTechChat.md in Sources */,
+				95341A34BA2E943DCDA4F15DB3904EE3 /* SkyTechChatDelegate.swift in Sources */,
+				85356C1ABA15E94BFF210B1398270B25 /* SkyTechChatError.swift in Sources */,
+				254AFB9A8B826C81BE3505F195B4A38F /* TokenResponse.swift in Sources */,
+				1CB3A27C07391B0548E226F50B0AF133 /* WebCacheCleaner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50DEC6F8771979851F2A5A9B005F3B6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SkyTech-Chat";
+			target = 44C1BB8895B7F3D582AD38F9BD109048 /* SkyTech-Chat */;
+			targetProxy = 37ADBF6B7ABA31DDAFD05E3F14E65B99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C952FE6C2FFE7EAE1288E87021F1BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103076989A5338133D4C08E5D0CA7FCB /* Pods-SkyTechChat_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkyTechChat_Example/Pods-SkyTechChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkyTechChat_Example/Pods-SkyTechChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57C61EE7AFF125A83A27CC97160BFD23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B109CF52A81312E6918DEED4EDFF68 /* Pods-SkyTechChat_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkyTechChat_Example/Pods-SkyTechChat_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SkyTechChat_Example/Pods-SkyTechChat_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A3B64EA4ADE5E21C6031C00995AF66D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855BCDF2D83278772D925159A76BB9CD /* SkyTech-Chat.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyTech-Chat/SkyTech-Chat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyTech-Chat/SkyTech-Chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyTech-Chat/SkyTech-Chat.modulemap";
+				PRODUCT_MODULE_NAME = SkyTech_Chat;
+				PRODUCT_NAME = SkyTech_Chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABC7C5D59411EEDFFB509389B21E1D19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A04FDF222F48F941D3D2A4D8BE04EB0 /* SkyTech-Chat.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyTech-Chat/SkyTech-Chat-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyTech-Chat/SkyTech-Chat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyTech-Chat/SkyTech-Chat.modulemap";
+				PRODUCT_MODULE_NAME = SkyTech_Chat;
+				PRODUCT_NAME = SkyTech_Chat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA2925F0BFD172D9F2C98C8E1735D44E /* Build configuration list for PBXNativeTarget "Pods-SkyTechChat_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C61EE7AFF125A83A27CC97160BFD23 /* Debug */,
+				2C952FE6C2FFE7EAE1288E87021F1BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7E3DB9C59932BE87940FE5827DE0A6 /* Build configuration list for PBXNativeTarget "SkyTech-Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B64EA4ADE5E21C6031C00995AF66D7 /* Debug */,
+				ABC7C5D59411EEDFFB509389B21E1D19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

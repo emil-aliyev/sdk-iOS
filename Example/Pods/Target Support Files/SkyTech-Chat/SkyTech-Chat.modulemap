@@ -1,0 +1,6 @@
+framework module SkyTech_Chat {
+  umbrella header "SkyTech-Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SkyTech-Chat (0.1.12)
+
+DEPENDENCIES:
+  - SkyTech-Chat (from `/Users/rashadshirizada/Desktop/Projects/JlTechChat/SkyTechChat`)
+
+EXTERNAL SOURCES:
+  SkyTech-Chat:
+    :path: "/Users/rashadshirizada/Desktop/Projects/JlTechChat/SkyTechChat"
+
+SPEC CHECKSUMS:
+  SkyTech-Chat: b55ea3df7004a84cf146e44ec22dc4829d4c2737
+
+PODFILE CHECKSUM: 2fb4737c542acb428a2164754fa4341133806c8e
+
+COCOAPODS: 1.11.2

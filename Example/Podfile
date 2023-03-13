@@ -1,0 +1,8 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SkyTechChat_Example' do
+  pod 'SkyTech-Chat', :path => '/Users/rashadshirizada/Desktop/Projects/JlTechChat/SkyTechChat'
+
+end
